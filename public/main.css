@@ -1,0 +1,43 @@
+html {
+  font-family: "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, Meiryo, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:active,
+a:visited {
+  color: black;
+}
+a:hover {
+  color: gray;
+}
+
+.main {
+  margin: 20px;
+}
+
+.header {
+  text-align: center;
+}
+
+.header-title {
+  font-size: 3em;
+}
+
+.footer {
+  text-align: center;
+}
+
+.my-icon {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.icon-text {
+  font-size: 3em;
+  font-weight: bold;
+}
+
