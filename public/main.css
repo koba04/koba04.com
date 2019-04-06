@@ -5,7 +5,6 @@ html {
 a {
   text-decoration: none;
 }
-
 a:link,
 a:active,
 a:visited {
@@ -15,20 +14,55 @@ a:hover {
   color: gray;
 }
 
-.main {
-  margin: 20px;
+ul {
+  list-style: none;
+  padding: 0;
 }
 
 .header {
   text-align: center;
 }
 
-.header-title {
-  font-size: 3em;
+.header__title {
+  font-size: 3rem;
+  margin: 0.5rem;
 }
+
+.header__text {
+  margin: 0.5rem;
+}
+
+.main {
+  margin: 40px 0;
+}
+
+.account-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.account-list__item {
+  width: 33%;
+}
+
+.account-list__item {
+  width: 33%;
+}
+
+@media (max-width: 400px) {
+  .account-list__item {
+    width: 50%;
+  }
+}
+
 
 .footer {
   text-align: center;
+}
+
+.footer__copyright {
+  margin: 0.5rem;
 }
 
 .my-icon {
@@ -37,7 +71,13 @@ a:hover {
 }
 
 .icon-text {
-  font-size: 3em;
+  font-size: 3rem;
   font-weight: bold;
 }
 
+@media (max-width: 400px) {
+  .icon-text {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+}
