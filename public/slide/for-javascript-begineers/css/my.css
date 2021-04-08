@@ -1,0 +1,23 @@
+.reveal h1,
+.reveal h2,
+.reveal h3 {
+  font-weight: bold;
+  font-family: sans-serif;
+  text-transform: none;
+  margin-bottom: 30px;
+}
+
+.reveal section img {
+  border: none;
+}
+
+.reveal ul li {
+  margin-bottom: 0.5em;
+}
+
+.reveal ul ul {
+  list-style-type: none;
+}
+.reveal ul ul li:before {
+  content: "→ "
+}
