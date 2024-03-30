@@ -44,10 +44,7 @@ ul {
 
 .account-list__item {
   width: 33%;
-}
-
-.account-list__item {
-  width: 33%;
+  height: 100px;
 }
 
 @media (max-width: 400px) {
